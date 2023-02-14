@@ -8,6 +8,11 @@
 - `docker container run -d IMAGE` run the container in a detached mode, in the background
 - `docker container run -it IMAGE COMMAND` run the container with the command and keeps the STDIN and STDOUT in the terminal
 - `docker container run --name NAME IMAGE` gives a name to the container
+- `docker container run -v HOST_FOLDER:CONTAINER_FOLDER CONTAINER` bind mount local folder to container folder
+- `docker container run -v VOLUME_NAME:/var/container CONTAINER` bind a volume to a container folder
+- `docker container run -e VARIABLE_NAME=VARIABLE_VALUE CONTAINER` pass env variables to container
+- `docker container run --name CONTAINER_NAME CONTAINER` set a name to the container
+- `docker container run --network=host CONTAINER` change the default network from bridge to other one
 
 ### `docker container start` - Starts a stopped container.
 
@@ -40,3 +45,7 @@
 ### `docker image pull` - Pulls an image from a remote repository.
 
 ### `docker container attach` - Attach local standard input, output, and error streams to a running container
+
+### `docker container inspect`  - Display detailed information on one or more containers
+
+### `docker volume create VOLUME_NAME` - Create a volume
