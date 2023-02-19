@@ -44,6 +44,54 @@
             }
           },
           {
+            "id": "8f8fabed37fc3df3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/how to copy files between servers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc8757b549d83e11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/how to copy files between servers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad94785508a76496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/how to update initial message on linux terminal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2e109b3e340a60d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/delete files in a folder not owned by specific user.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "17c181f9908fcdd0",
             "type": "leaf",
             "state": {
@@ -80,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/commands.md",
+                "file": "linux/delete files in a folder not owned by specific user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/commands.md",
+                "file": "linux/delete files in a folder not owned by specific user.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/commands.md"
+                "file": "linux/delete files in a folder not owned by specific user.md"
               }
             }
           }
@@ -207,10 +255,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02bcc3a4df5a0abe",
+  "active": "f2e109b3e340a60d",
   "lastOpenFiles": [
-    "postgresql/how to run pgadmin4 as a container.md",
+    "linux/how to update initial message on linux terminal.md",
+    "linux/how to copy files between servers.md",
+    "linux/how to disable root login.md",
     "docker/commands.md",
+    "postgresql/how to run pgadmin4 as a container.md",
     "linux/how to change timezone in rhel.md",
     "docker/how to clear docker environment.md",
     "websites.md",

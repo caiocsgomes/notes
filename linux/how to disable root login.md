@@ -1,0 +1,1 @@
+In the file `/etc/ssh/sshd_config` find the line that reads `PermitRootLogin yes` and change it to `PermitRootLogin no`.
