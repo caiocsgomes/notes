@@ -4,167 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dfe5a36b6c04d684",
+        "id": "a635a68091b96e60",
         "type": "tabs",
         "children": [
           {
-            "id": "a5cc9faec89edbb6",
+            "id": "37e9bf8037d6f431",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/how to clear docker environment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3b03a96ee3526bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker/commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02bcc3a4df5a0abe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgresql/how to run pgadmin4 as a container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88be10a0a6182b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/sed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1edd456dfd79f6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/systemctl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f8fabed37fc3df3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/how to copy files between servers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc8757b549d83e11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/how to copy files between servers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad94785508a76496",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/how to update initial message on linux terminal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2e109b3e340a60d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgresql/how to run pgadmin4 as a container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bf3ec6df6f7e786",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/find patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17c181f9908fcdd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgresql/how to run pgadmin4 as a container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f49d183da4db08c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "markdown/guides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f89977fa505b2bc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker/commands.md",
+                "file": "kubernetes/random.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/find patterns.md",
+                "file": "kubernetes/random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/find patterns.md",
+                "file": "kubernetes/random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/find patterns.md"
+                "file": "kubernetes/random.md"
               }
             }
           }
@@ -291,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bf3ec6df6f7e786",
+  "active": "37e9bf8037d6f431",
   "lastOpenFiles": [
+    "kubernetes/random.md",
+    "kubernetes",
+    "docker/commands.md",
     "linux/sed.md",
     "linux/systemctl.md",
     "linux/how to redirect in apache.md",
