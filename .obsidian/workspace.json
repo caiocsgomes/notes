@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2ed3bda556e9b4d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96878a49095627ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/gpg.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/random.md",
+                "file": "linux/gpg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/random.md",
+                "file": "linux/gpg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/random.md"
+                "file": "linux/gpg.md"
               }
             }
           }
@@ -146,20 +171,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37e9bf8037d6f431",
+  "active": "96878a49095627ae",
   "lastOpenFiles": [
-    "kubernetes/random.md",
-    "kubernetes",
+    "kubernetes/service-definition.yml",
+    "kubernetes/commands.md",
+    "linux/gpg.md",
+    "kubernetes/deployment.yml~",
+    "kubernetes/deployment.yml",
+    "kubernetes/pod-definition.yaml",
+    "kubernetes/replicaset.yaml",
     "docker/commands.md",
-    "linux/sed.md",
-    "linux/systemctl.md",
-    "linux/how to redirect in apache.md",
-    "postgresql/how to run pgadmin4 as a container.md",
     "docker/how to clear docker environment.md",
-    "linux/how to copy files between servers.md",
+    "kubernetes",
+    "linux/configs apache.md",
+    "linux/delete files in a folder not owned by specific user.md",
     "linux/how to change timezone in rhel.md",
-    "linux/find patterns.md",
     "linux/how to update initial message on linux terminal.md",
-    "linux/how to disable root login.md"
+    "linux/how to disable root login.md",
+    "linux/how to redirect in apache.md",
+    "linux/how to disable OS visualization in an apache server?.md",
+    "linux/how to disable listing in an apache directory?.md"
   ]
 }
