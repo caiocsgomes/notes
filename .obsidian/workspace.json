@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c12abfb82046ad4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/RHCSA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ceeaab586eba3736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/CKA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/gpg.md",
+                "file": "kubernetes/CKA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/gpg.md",
+                "file": "kubernetes/CKA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/gpg.md"
+                "file": "kubernetes/CKA.md"
               }
             }
           }
@@ -171,11 +195,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96878a49095627ae",
+  "active": "ceeaab586eba3736",
   "lastOpenFiles": [
+    "linux/RHCSA.md",
+    "kubernetes/CKA.md",
+    "linux/gpg.md",
     "kubernetes/service-definition.yml",
     "kubernetes/commands.md",
-    "linux/gpg.md",
     "kubernetes/deployment.yml~",
     "kubernetes/deployment.yml",
     "kubernetes/pod-definition.yaml",
