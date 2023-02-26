@@ -2,6 +2,61 @@
 
 # Understand and use essential tools for handling files, directories, command-line environments, and documentation
 
+## Files
+
+Commands 
+
+```bash
+ls -lha
+ls -lha /var/
+
+pwd
+
+cd
+cd -
+
+touch FILE
+
+mkdir DIRECTORY
+
+cp SOURCE DESTINATION
+cp -r SOURCE DESTINATION # cp -r sourcefolder/ destfolder/
+
+mv SOURCE DESTINATION
+mv FILE FOLDER/ # keep same name
+mv FILE NEW_FILE
+
+rm FILE
+rm -r FOLDER/
+
+find FOLDER -name word
+
+stat FILE or FOLDER
+
+```
+
+## Inodes and links
+
+Inodes are data structures used to store data about files or folder, they store where the data is stored on disk and are created together with files and folders. When a file or folder are accessed the OS looks up the inode for the file or folder to discover where the block of data is stored on disk. The filesystem stored the inode number for each file, so when a file is open the OS know which block of data to access. The permissions are stored in the inode.
+
+Hard links point to the same inode. To create one:
+
+```bash
+ln /path/to/original/file /path/to/soft/link
+```
+
+Hard links operate only on files in the same filesystem.
+
+Data in an inode is deleted when no link is pointing to it.
+
+A soft link points to a file (path) instead of an inode, so if the original file is deleted the soft link will be broken. To create one:
+
+```bash
+$ ln -s /path/to/original/file /path/to/soft/link
+```
+
+Hard links can operate in files and folder in different filesystems.
+
 ## Users
 
 Commands 
