@@ -35,6 +35,69 @@ stat FILE or FOLDER
 
 ```
 
+### Permissions
+
+```bash
+# change group
+chgrp GROUP FOLDER_OR_FILE
+
+# change owner
+chown USER:GROUP FILE_OR_FILE
+
+# change permissions
+# UGO r -> 4, w -> 2, x -> 1
+chmod UGO (XXX) file
+chmod UGO (XXX) folder
+chmod -R UGO (XXX) folder # adds permissions to the folder and recursively to files inside it
+chmod u+w file
+chmod o-x file
+chmod g=r file
+chmod g=rw file
+chmod g= file # no permissions
+chmod u+rw,g=r,o=r file # no permissions
+
+# SUID, SGID-> these allow executables to always execute as a UGO instead of the user permissions
+chmod 4600 file # Set Owner User ID on the user
+chmod 2600 file # Set Group User ID on the user
+
+# stickybit -> allows only the onwer or root user to delete or rename the affected folder
+chmod 1XXX folder
+chmod +t folder
+```
+
+### Search
+```bash
+# find [PATH] [SEARCH PARAMETERS]
+find /usr/share/ -name '*.jpg'
+
+# c bytes, k kilobytes, M megabytes, G gigabytes
+find /usr/ -size +10M # bigger than 10M
+find /usr/ -size 10G 
+find /usr/ -size -10k # smaller than 10k
+
+find /dev/ -mmin -1 # modified 1 minute ago
+find /dev/ -mmin -1 # modified until 1 minute ago
+find /dev/ -mmin +1 # modified before 1 minute ago
+find /dev/ -mtime 0 # modified until 1 day ago
+find /dev/ -mtime 1 # modified between 24h and 48h ago
+
+find . -name file1.txt
+
+find . -iname file1.txt # case insensitive
+
+find . -name 'f*'
+
+# OR
+find . -name 'f*' -o -size -10k
+
+# not
+find -not -name "f*"
+
+find -perm 664
+find -perm -664 # at least these permissions
+find -perm /664 # any of these permissions
+```
+
 ## Inodes and links
 
 Inodes are data structures used to store data about files or folder, they store where the data is stored on disk and are created together with files and folders. When a file or folder are accessed the OS looks up the inode for the file or folder to discover where the block of data is stored on disk. The filesystem stored the inode number for each file, so when a file is open the OS know which block of data to access. The permissions are stored in the inode.
