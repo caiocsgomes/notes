@@ -4,64 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a635a68091b96e60",
+        "id": "1ad80c93fb07d258",
         "type": "tabs",
         "children": [
           {
-            "id": "37e9bf8037d6f431",
+            "id": "75c8fdcb37266900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/random.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ed3bda556e9b4d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernetes/commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96878a49095627ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/gpg.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c12abfb82046ad4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/RHCSA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceeaab586eba3736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/RHCSA.md",
+                "file": "postgresql/how to run pgadmin4 as a container.md",
                 "mode": "source",
                 "source": false
               }

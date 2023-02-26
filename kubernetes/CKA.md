@@ -1,6 +1,9 @@
 # CKA
 
+# Core concepts
 
+- Master nodes: responsible for container management, planning, scheduling, monitoring, etc
+- Worker nodes: responsible for hosting the application
 
 ## Random
 
