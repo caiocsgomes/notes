@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2ef6ad0f33d5054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/sftp config.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd43047a01d85046",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5ba398b90b338a7d",
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/RHCSA.md",
+                "file": "linux/sftp config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/RHCSA.md",
+                "file": "linux/sftp config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/RHCSA.md"
+                "file": "linux/sftp config.md"
               }
             }
           }
@@ -147,10 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4993a4c75a0cba81",
+  "active": "e2ef6ad0f33d5054",
   "lastOpenFiles": [
-    "linux/yum.md",
     "linux/RHCSA.md",
+    "linux/sftp config.md",
+    "linux/yum.md",
     "kubernetes/random.md",
     "kubernetes/CKA.md",
     "linux/gpg.md",

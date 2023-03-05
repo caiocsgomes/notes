@@ -35,6 +35,44 @@ stat FILE or FOLDER
 
 ```
 
+### View and manipulate file contents
+
+Commands 
+```bash
+cat text.txt
+tac text.txt
+
+
+tail -n 10 text.txt
+head -n 20 text.txt
+
+# replace words
+sed 's/cao/caio/g' text.txt
+
+# replace entire words (s substitute, g global)
+sed 's/\bcao\b/caio/g' text.txt
+sed 's/\bcao\b/caio/' text.txt # will change only the first occurence
+
+# do the changes in place (i in-place)
+sed -i 's/\bcao\b/caio/g' text.txt
+
+# cut gets part of files, useful to get data from tables 
+# d delimiter, f field
+cut -d ' ' -f 1 userinfo.txt
+cut -d ',' -f 3 userinfo.txt
+
+# filter repeated adjacent lines from INPUT
+uniq countries.txt
+
+# sorts first the list 
+sort coutries.txt | uniq
+
+# finds difference between files
+diff -y file1 file2
+
+#grep i insensitive, w whole words, R recursive inside folder, v inverse
+```
+
 ### Permissions
 
 ```bash
