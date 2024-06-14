@@ -59,3 +59,15 @@ spec:
 And then mount the secret: https://github.com/kubernetes-sigs/secrets-store-csi-driver/blob/release-1.4/test/bats/tests/vault/pod-vault-inline-volume-secretproviderclass.yaml
 
 The secret will only be sync (created as a k8s resource) as a k8s secret if mounted on a pod
+
+## Port forwarding
+
+```sh
+kubectl -n kube-prometheus-stack port-forward svc/kube-prometheus-stack-prometheus 9090:8080
+```
+
+## Remove finalizers of all pods 
+
+```sh
+kc get po | grep -i term |  awk -F' ' '{print $1}' | xargs -I {}  kubectl -n runners patch pod {} -p '{"metadata":{"finalizers":null}}'
+```
