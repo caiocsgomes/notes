@@ -71,3 +71,8 @@ kubectl -n kube-prometheus-stack port-forward svc/kube-prometheus-stack-promethe
 ```sh
 kc get po | grep -i term |  awk -F' ' '{print $1}' | xargs -I {}  kubectl -n runners patch pod {} -p '{"metadata":{"finalizers":null}}'
 ```
+
+## Fast dns test in pod
+```sh
+kubectl run test-nslookup --image=busybox:1.28 --rm -it --restart=Never -- nslookup kubernetes.default.svc
+```
